@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/nav_map"
+            android:title="@string/title_map" />
+
+        <item
+            android:id="@+id/nav_bookmarks"
+            android:icon="@drawable/nav_bookmark"
+            android:title="@string/title_bookmarks" />
+
+        <item
+            android:id="@+id/nav_compass"
+            android:icon="@drawable/nav_compass"
+            android:title="@string/title_compass" />
+
+        <item
+            android:id="@+id/nav_trip_history"
+            android:icon="@drawable/nav_history"
+            android:title="@string/title_trip_history" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/nav_profile"
+            android:title="@string/title_Profile" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/nav_settings"
+            android:title="@string/title_settings" />
+
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/nav_signout"
+            android:title="@string/title_sign_out" />
+    </group>
+</menu>

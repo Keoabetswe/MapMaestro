@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="262dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_logo_red" />
+
+    <TextView
+        android:id="@+id/tvSplashScreen1"
+        android:layout_width="32dp"
+        android:layout_height="132dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="117dp"
+        android:text="@string/map"
+        android:gravity="center"
+        android:textColor="@color/map_white_text"
+        android:textSize="35sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tvSplashScreen2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvSplashScreen1"
+        android:layout_gravity="center"
+        android:layout_marginStart="1dp"
+        android:layout_toEndOf="@+id/tvSplashScreen1"
+        android:text="@string/maestro"
+        android:textColor="@color/maestro_black_text"
+        android:textSize="35sp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetTrip">
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".SetTrip"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:elevation="10dp"
+        android:background="@drawable/white_border"
+        android:id="@+id/relLayout1Location">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/ivStartingLocation"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_set_starting_pint"/>
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/ivStartingLocation"
+            android:layout_centerVertical="true"
+            android:textSize="17sp"
+            android:textColor="@color/black_text"
+            android:id="@+id/etStartingPoint"
+            android:background="@null"
+            android:singleLine="true"
+            android:imeOptions="actionSearch"
+            android:hint="@string/set_starting_point"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:elevation="10dp"
+        android:background="@drawable/white_border"
+        android:id="@+id/relLayoutDestination">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/ivSearchDestination"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_set_destination"/>
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/ivSearchDestination"
+            android:layout_centerVertical="true"
+            android:textSize="17sp"
+            android:singleLine="true"
+            android:textColor="@color/black_text"
+            android:id="@+id/etTripDestination"
+            android:background="@null"
+            android:imeOptions="actionSearch"
+            android:hint="@string/set_destination"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivGPS"
+            android:layout_width="39dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_my_location"
+            android:layout_marginTop="130dp"/>
+
+
+        <ImageView
+            android:id="@+id/ivSetTrip"
+            android:layout_width="39dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_directions"
+            android:layout_marginTop="180dp"/>
+
+        <ImageView
+            android:id="@+id/ivDistance"
+            android:layout_width="30dp"
+            android:layout_height="31dp"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_distance"
+            android:layout_marginTop="130dp"/>
+
+        <TextView
+            android:layout_marginLeft="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="155dp"
+            android:text="@string/distance"
+            android:id="@+id/tvDistance" />
+
+
+        <ImageView
+            android:id="@+id/ivDuration"
+            android:layout_width="26dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="19dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_clock"
+            android:layout_marginTop="180dp"/>
+
+        <TextView
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="205dp"
+            android:text="@string/duration"
+            android:id="@+id/tvDuration" />
+    </RelativeLayout>
+
+
+</FrameLayout>

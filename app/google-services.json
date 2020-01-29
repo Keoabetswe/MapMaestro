@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "562432988766",
+    "firebase_url": "https://map-maestro.firebaseio.com",
+    "project_id": "map-maestro",
+    "storage_bucket": "map-maestro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562432988766:android:c93c102b05419d8a",
+        "android_client_info": {
+          "package_name": "com.example.keo.mapmaestro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562432988766-j60h74bnqrbqdnu3npgmtk7tucc06scv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.keo.mapmaestro",
+            "certificate_hash": "f4f7f2947271d800ad012bd641332cdffeaa2518"
+          }
+        },
+        {
+          "client_id": "562432988766-kmut6gvjet5qe487a0plmn8nbcr387n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVGn7q5GHVSpvaA7NZB_ZECFix6WvAMpg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562432988766-kmut6gvjet5qe487a0plmn8nbcr387n5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

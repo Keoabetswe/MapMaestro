@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3fb54f</color>
+    <color name="colorPrimaryDark">#57a461</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--Splash screen text and logo-->
+    <color name="map_white_text">#ffffff</color>
+    <color name="maestro_black_text">#0f0f0f</color>
+    <color name="logo_color">#c6291e</color>
+
+    <!--text colors-->
+    <color name="splash_text">#ffffff</color>
+    <color name="white_text">#ffffff</color>
+    <color name="black_text">#0f0f0f</color>
+    <color name="grey_text">#80737171</color>
+
+    <!--backgrounds-->
+    <color name="background">#3fb54f</color>
+    <color name="button_color">#ccc6c6</color>
+
+    <color name="unselectedNav">#80ffffff</color>
+    <color name="selectedNav">#ffffff</color>
+
+    <!--FAB options-->
+    <color name="fab_bookmark_red">#c6291e</color>
+    <color name="fab_nearby_places_yellow">#c4a405</color>
+    <color name="fab_set_trip_green">#33a610</color>
+
+    <!--border color-->
+    <color name="border_color">#555</color>
+
+</resources>

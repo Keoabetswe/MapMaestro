@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment"
+    android:padding="25dp"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/grey_text">
+
+    </View>
+
+    <TextView
+        android:id="@+id/tvUnitTypes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/unit_types"
+        android:textSize="15sp" />
+
+    <RadioGroup
+        android:id="@+id/radUnitTypes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <RadioButton
+            android:id="@+id/radMetric"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/units_metric"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radImperial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/units_imperial"
+            android:textSize="15sp" />
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/grey_text">
+    </View>
+
+    <TextView
+        android:id="@+id/tvModeOfTransport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/mode_of_transport"
+        android:textSize="15sp" />
+
+    <RadioGroup
+        android:id="@+id/radModeOfTransport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/radDriving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mot_driving"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radWalking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mot_walking"
+            android:textSize="15sp" />
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/grey_text">
+    </View>
+
+
+    <Button
+        android:id="@+id/btnSettingsSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="@string/settings_save"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
